@@ -1,0 +1,138 @@
+#principal {
+    width: 1000px;
+    margin:auto;
+    background: #D1D2D2;
+}
+
+#cabecera {
+    width: 1000px;
+    height: 50px;
+    background: #4AA7DC;
+}
+
+#cabecera ul {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+#cabecera li {
+    display: inline;
+    margin-right: 30px;
+
+}
+
+#cabecera a {
+    color: #fff;
+    /*Para quitar el subrrayado del texto*/
+    text-decoration: none;
+    /*para el grosor de las letras o texto*/
+    font-weight: bold;
+
+}
+
+/*Siguente style*/
+section {
+    /*declaramos el margen de arriba para menu, conttenido, barra*/
+    margin-top: 20px;
+
+}
+
+#menu {
+    /*Para el ancho de div*/
+    width: 210px;
+    /*Para la altura del div*/
+    height: 200px;
+
+    background: #45CB83;
+    float: left;
+    padding: 20px;
+
+
+}
+
+#contenido {
+    width: 490px;
+    height: 400px;
+    background: #BFAE36;
+    /*mandar o que se posicionen cada un a la izquierda*/
+    float: left;
+    /* para que no este pegado a los bordes el texto*/
+    margin: 0px 10px 50px 10px;
+    padding: 20px;
+
+
+
+}
+
+#barra {
+    width: 160px;
+    height: 300px;
+    background: #E5926D;
+    float: left;
+    padding: 20px;
+
+
+
+}
+
+.parallax{
+    clear: both;
+    width: 100%;
+    height: 300px;
+    background:url("C:/Users/LF. Romero/Documents/Maquetacion HTML,CSS/tecnologia.jpg") fixed no-repeat;
+
+    background-size: cover;
+    background-position: center top;
+
+    
+}
+
+.servicios h3, .servicios h4{
+    /*para centrar textos*/
+    text-align: center;
+}
+.servicio{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background: #F85C49 ;
+    float: left;
+    margin: 50px;
+}
+#pie{
+    width: 1000px; 
+    clear: both;
+    border-top: 1px solid #C0A3A0 ;
+    
+    
+
+}
+
+.acerca{
+    width: 250px;
+    
+    float: left;
+    margin-right: 100px;
+}
+.menu{
+    width: 220px;
+    float: left;
+    margin: right 100px;
+
+}
+.socialMedia{
+    width: 300px;
+    float: left;
+    
+    
+}
+
+.social{
+    width: 50px; 
+    height: 50px;
+    border-radius: 50px;
+    background: #40CA53;
+    float: left;
+    margin-left: 20px;
+}
